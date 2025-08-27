@@ -1,0 +1,10 @@
+{
+  "name": "dockerhub-trigger-lambda",
+  "version": "1.0.0",
+  "description": " Funcao Lambda  que recebe um GET do Docker Hub.",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
