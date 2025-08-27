@@ -9,6 +9,9 @@ import path from "path";
 //Configuring the environmental variable
 dotenv.config();
 
+// Agora importe e chame sua conexão com o banco
+import dataBaseConnection from './config/database.js';
+
 //Server Setup
 const app = express();
 const PORT = process.env.PORT || 5005;
